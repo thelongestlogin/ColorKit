@@ -46,7 +46,7 @@ extension UIColor {
             }
         }
         
-        var associatedValue: CGFloat {
+        public var associatedValue: CGFloat {
             switch self {
             case .indentical(let value),
                  .similar(let value),
